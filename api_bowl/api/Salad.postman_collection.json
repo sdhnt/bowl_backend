@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "bc7bf2ee-465a-4a52-953e-0b6d0c32217e",
+		"name": "Salad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"salads",
+						"5c7000b7bea0a23f45525474"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"salad\": {\n\t\t \"recipe\": {\n\t        \"base\": [\n\t            {\n\t                \"ingredient\": \"5c6fceb2b5d73b3b51819fa9\",\n\t                \"amount\": 1\n\t            }\n\t        ]\n\t    },\n\t    \"name\": \"my Caesar1\",\n\t    \"cost\": 126\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"salads",
+						"5c7000b7bea0a23f45525474"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/salads",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/salads",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"salads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/salads/5c7000b7bea0a23f45525474",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"salads",
+						"5c7000b7bea0a23f45525474"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/salads",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODM0NDcxLCJleHAiOjE1NTE0MzkyNzF9.kXFzGfo-RwnzTbH3hfJeKtKuZTjG_YP43NZC0njRz5M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"salad\": {\n\t\t \"recipe\": {\n\t        \"base\": [\n\t            {\n\t                \"ingredient\": \"5c6fceb2b5d73b3b51819fa9\",\n\t                \"amount\": 5\n\t            }\n\t        ]\n\t    },\n\t    \"name\": \"my Caesar\",\n\t    \"cost\": 122\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/salads",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"salads"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "ec2cc4f3-5894-469c-802f-e11a603c9ed9",
+		"name": "Category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://34.239.228.199/api/categories/5c66b7b5b87a83317abac619",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NTAyMzQxNDgsImV4cCI6MTU1MDgzODk0OH0.MNTI2rHkFDjolLceL_NbkufPDauG3WfGaHWJYA1OtDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"name\": \"testCat123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories/5c66b7b5b87a83317abac619",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories",
+						"5c66b7b5b87a83317abac619"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/categories/5c66b7b5b87a83317abac619",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NTAyMzQxNDgsImV4cCI6MTU1MDgzODk0OH0.MNTI2rHkFDjolLceL_NbkufPDauG3WfGaHWJYA1OtDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"name\": \"testCat123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories/5c66b7b5b87a83317abac619",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories",
+						"5c66b7b5b87a83317abac619"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/categories",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NTAyMzQxNDgsImV4cCI6MTU1MDgzODk0OH0.MNTI2rHkFDjolLceL_NbkufPDauG3WfGaHWJYA1OtDE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"categories\": [\"5c62cc2a99833b335debdeb6\"],\n\t \"name\": \"testCat\",\n\t \"type\": \"ingredient\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/categories/type/ingredient",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMSIsImVtYWlsIjoidXNlckB1c2VyLmNvbSIsInJvbGUiOiJ1c2VyIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NDk5Nzg2NzMsImV4cCI6MTU1MDU4MzQ3M30.oRyKpyPjJcgwb5KO8pyp3x-GPkjJQVuh8Oxx5OeqPYY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"admin@admin.com\",\n\t\"password\": \"admin\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories/type/ingredient",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories",
+						"type",
+						"ingredient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/categories/5c62cc2a99833b335debdeb7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMSIsImVtYWlsIjoidXNlckB1c2VyLmNvbSIsInJvbGUiOiJ1c2VyIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NDk5Nzg2NzMsImV4cCI6MTU1MDU4MzQ3M30.oRyKpyPjJcgwb5KO8pyp3x-GPkjJQVuh8Oxx5OeqPYY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"admin@admin.com\",\n\t\"password\": \"admin\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories/5c62cc2a99833b335debdeb7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories",
+						"5c62cc2a99833b335debdeb7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVmMSIsImVtYWlsIjoidXNlckB1c2VyLmNvbSIsInJvbGUiOiJ1c2VyIiwic2FsYWRzIjpbIjVjNjJjYzJhOTk4MzNiMzM1ZGViZGVjNSJdLCJpYXQiOjE1NDk5Nzg2NzMsImV4cCI6MTU1MDU4MzQ3M30.oRyKpyPjJcgwb5KO8pyp3x-GPkjJQVuh8Oxx5OeqPYY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"admin@admin.com\",\n\t\"password\": \"admin\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/api/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

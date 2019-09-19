@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "0b695672-a51a-4d23-9552-20c62597a219",
+		"name": "Machine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://34.239.228.199/api/machines/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/machines/",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"machines",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"machines",
+						"5c70156cfcf28a4051db6ed7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"addresssss12\",\n\t\"dns\": \"localhost12\",\n\t\"longitude\": \"-10.8544921875\",\n\t\"latitude\": \"59.478568831926395\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"machines",
+						"5c70156cfcf28a4051db6ed7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"addresssss\",\n\t\"dns\": \"localhost\",\n\t\"longitude\": \"-10.8544921875\",\n\t\"latitude\": \"59.478568831926395\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/machines/5c70156cfcf28a4051db6ed7",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"machines",
+						"5c70156cfcf28a4051db6ed7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/machines/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODQzMzk4LCJleHAiOjE1NTE0NDgxOTh9.u19ht8lkJfAJ0wYfoOF1CqEGC8r-qXQou_YeEcSRd8Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"addresssss\",\n\t\"dns\": \"localhost\",\n\t\"longitude\": \"-10.8544921875\",\n\t\"latitude\": \"59.478568831926395\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/machines/",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"machines",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

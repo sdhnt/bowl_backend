@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+				<title>Bowl: Backend Server</title>
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Bowl <span>backend server</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Configure</a></li>
+					<li><a href="elements.html">Back-End Developer Elements</a></li>
+				</ul>
+			</nav>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Configure Pods & Ingredients</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<p>Choose which pod contains which ingredients</p>
+								<h2>Set Configuration</h2>
+							</header>
+
+							<table>
+									<tr>
+										<td>Select a File to Load:</td>
+										<td><input type="file" id="fileToLoad"></td>
+										<td><button onclick="loadFileAsText()">Load Selected File</button><td>
+									</tr>
+									<tr><td>Update Configuration as Required:</td></tr>
+									<tr>
+										<td colspan="3">
+											<textarea id="inputTextToSave" cols="80" rows="25"></textarea>
+										</td>
+									</tr>
+									<tr>
+										<!-- <td>Filename to Save As:</td>
+										<td><input id="inputFileNameToSaveAs"></input></td> -->
+										<td><button onclick="saveTextAsFile()">Save Text to File</button></td>
+									</tr>
+								</table>
+	
+							
+						
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+				<!-- <div class="container">
+					<ul class="icons">
+						<li>Contact: sdhntgupta.com</li>
+					</ul>
+				</div> -->
+				<div class="copyright">
+					Developed by <a href="sdhntgupta.com">Sidhant Gupta </a>for bowl.company
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/load_save_config.js"></script>
+
+	</body>
+</html>

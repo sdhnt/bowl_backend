@@ -1,0 +1,359 @@
+{
+	"info": {
+		"_postman_id": "00760acd-c4d6-4147-abe6-0b362e6a72b2",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://34.239.228.199/api/user/edit",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNDMxYWY3NTZmYWJmMjNjNTI3ZDEwMiIsImVtYWlsIjoidGVzdDNAdGVzdC50ZXN0Iiwicm9sZSI6InVzZXIiLCJpYXQiOjE1NDc5MDE3MTksImV4cCI6MTU0ODUwNjUxOX0.gFGWVV2usWv4oPUhZSHl9ZOjxLgnGsTWFCVh8p_bHWI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test5@test.test\",\n\t\"password\": \"qwerty1\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/user/edit",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"user",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/user/info",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNDMxYWY3NTZmYWJmMjNjNTI3ZDEwMiIsImVtYWlsIjoidGVzdDNAdGVzdC50ZXN0Iiwicm9sZSI6InVzZXIiLCJpYXQiOjE1NDc5MDcyNDUsImV4cCI6MTU0ODUxMjA0NX0.UmNjeOQHnj6g6WlrpculyewPman9UvZ05eDJwWeKOks",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/user/info",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"user",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/auth/login",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test3@test.test\",\n\t\"password\": \"qwerty\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/auth/register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"test3@test.test\",\n\t\"password\": \"qwerty\"\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/user/salads",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxNCIsImVtYWlsIjoidXNlckB1c2VyLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNTQ5Mjg3MDQ2LCJleHAiOjE1NDk4OTE4NDZ9.84V9ym7HSBr_Me7Af1kQle5Zhfg0DH5WgYg5N3a-PUU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"recipe\": {\n                \"base\": [\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a80\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e0\",\n                            \"name\": \"tomato\",\n                            \"calories\": 129\n                        },\n                        \"amount\": 3\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7f\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e2\",\n                            \"name\": \"apple\",\n                            \"calories\": 58\n                        },\n                        \"amount\": 5\n                    }\n                ],\n                \"ingredients\": [\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7e\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e3\",\n                            \"name\": \"carrot\",\n                            \"calories\": 28\n                        },\n                        \"amount\": 3\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7d\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e4\",\n                            \"name\": \"salt\",\n                            \"calories\": 41\n                        },\n                        \"amount\": 4\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7c\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e5\",\n                            \"name\": \"chicken\",\n                            \"calories\": 38\n                        },\n                        \"amount\": 2\n                    }\n                ],\n                \"premiums\": [\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7b\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e6\",\n                            \"name\": \"beaf\",\n                            \"calories\": 147\n                        },\n                        \"amount\": 2\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a7a\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e7\",\n                            \"name\": \"corn\",\n                            \"calories\": 125\n                        },\n                        \"amount\": 3\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a79\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048e8\",\n                            \"name\": \"garlic\",\n                            \"calories\": 117\n                        },\n                        \"amount\": 3\n                    }\n                ],\n                \"dressing\": [\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a78\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048ea\",\n                            \"name\": \"salad\",\n                            \"calories\": 90\n                        },\n                        \"amount\": 2\n                    },\n                    {\n                        \"_id\": \"5c518ad5a7104d3f52e21a77\",\n                        \"ingredient\": {\n                            \"_id\": \"5c4ecdd1697ff16654a048eb\",\n                            \"name\": \"cheese\",\n                            \"calories\": 91\n                        },\n                        \"amount\": 4\n                    }\n                ]\n            },\n            \"img\": \"default.png\",\n            \"name\": \"my Caesar\",\n            \"cost\": 5\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/user/salads",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"user",
+						"salads"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/user/salad",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ce9b81e2-a232-444d-a6de-74c421de66e3",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODM0NDcxLCJleHAiOjE1NTE0MzkyNzF9.kXFzGfo-RwnzTbH3hfJeKtKuZTjG_YP43NZC0njRz5M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"recipe\": {\n        \"base\": [\n            {\n                \"ingredient\": \"5c6fceb2b5d73b3b51819fa9\",\n                \"amount\": 5\n            }\n        ]\n    },\n    \"img\": \"default.png\",\n    \"name\": \"my Caesar\",\n    \"cost\": 5\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/user/salad",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"user",
+						"salad"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/user/salad/5c6fdcb5d3f4c93aa250bdba",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ce9b81e2-a232-444d-a6de-74c421de66e3",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNmZjZWIzYjVkNzNiM2I1MTgxOWZlMCIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNTUwODM0NDcxLCJleHAiOjE1NTE0MzkyNzF9.kXFzGfo-RwnzTbH3hfJeKtKuZTjG_YP43NZC0njRz5M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"recipe\": {\n        \"base\": [\n            {\n                \"ingredient\": \"5c6fceb2b5d73b3b51819fa9\",\n                \"amount\": 2\n            }\n        ]\n    },\n    \"name\": \"my Caesar1\",\n    \"cost\": 15\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/user/salad/5c6fdcb5d3f4c93aa250bdba",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"user",
+						"salad",
+						"5c6fdcb5d3f4c93aa250bdba"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

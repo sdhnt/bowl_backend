@@ -1,0 +1,394 @@
+{
+	"info": {
+		"_postman_id": "641005fb-03c6-47c7-9c2a-70a8727b1144",
+		"name": "Ingredient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://34.239.228.199/api/ingredients/5c6e96d2b12bbf2be4312d82",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "5e0e5a6e-c08b-435f-a11e-bcc42678b3a3",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients/5c6e96d2b12bbf2be4312d82",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients",
+						"5c6e96d2b12bbf2be4312d82"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/ingredients/5c6e96d2b12bbf2be4312d82",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "54f7be63-1bcc-4c2a-b3c8-fef3522345ac",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ingredient\": {\n\t\t\"name\": \"an_ingred\"\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients/5c6e96d2b12bbf2be4312d82",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients",
+						"5c6e96d2b12bbf2be4312d82"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/ingredients/categories",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "45238ab5-d4b7-47dc-945e-08e1b38a3a60",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients/categories",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients",
+						"categories"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/ingredients",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "fad32114-c10d-4b84-a0ef-821e4282d7b2",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/ingredients",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f1217d78-2cd9-4b9b-bac2-c0e0682a178b",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ingredient\": {\n    \t\"name\": \"ingred\",\n\t    \"categories\": [{\n\t        \"_id\": \"5c4ecdd1697ff16654a048dc\"\n\t    }],\n\t    \"cost\": 12,\n\t    \"calories\": 10\n    }\n}"
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://34.239.228.199/api/ingredients/5c4ecdd1697ff16654a048e0",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ee5cce59-a2aa-4f4d-b0a9-19cbc5f7f504",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVjNGVjZGQyNjk3ZmYxNjY1NGEwNDkxMyIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwicm9sZSI6ImFkbWluIiwic2FsYWRzIjpbIjVjNGVjZGQxNjk3ZmYxNjY1NGEwNDhlYyJdLCJpYXQiOjE1NTA3NDUxMTIsImV4cCI6MTU1MTM0OTkxMn0.Rbx-gbbXKHZ2TVO4X8R221Qy2oTv_9n-_lH4GpSvIUY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://34.239.228.199/api/ingredients/5c4ecdd1697ff16654a048e0",
+					"protocol": "http",
+					"host": [
+						"34",
+						"239",
+						"228",
+						"199"
+					],
+					"path": [
+						"api",
+						"ingredients",
+						"5c4ecdd1697ff16654a048e0"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test@test.test",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
